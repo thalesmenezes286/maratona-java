@@ -20,6 +20,7 @@ public class PrimitiveTypes {
         // Tipo boolean para valores lógicos
         boolean isStudent = true; // Tipo boolean para indicar se é estudante
 
+
         // Exibindo os valores
         System.out.println("Age: " + age);
         System.out.println("Number: " + numero);
