@@ -1,12 +1,13 @@
-package com.maratona.dev.introducao;
+package com.maratona.dev.introduction;
 
-public class OlaMundo {
+//Comentário em Java
+public class HelloWorld {
 
     public static String hello(){
-        return "Olá mundo no Java";
+        return "Hello World in Java";
     }
+
     public static void main(String[] args) {
         System.out.println(hello());;
     }
 }
-á
