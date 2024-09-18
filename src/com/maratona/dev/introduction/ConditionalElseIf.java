@@ -8,16 +8,16 @@ public class ConditionalElseIf {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Digite a sua grade: ");
-        double grade = scanner.nextDouble();
+        System.out.print("Digite a sua nota: ");
+        double nota = scanner.nextDouble();
 
-        if (grade >= 9.0) {
+        if (nota >= 9.0) {
             System.out.println("Classificação: A");
-        } else if (grade >= 7.0) {
+        } else if (nota >= 7.0) {
             System.out.println("Classificação: B");
-        } else if (grade >= 5.0) {
+        } else if (nota >= 5.0) {
             System.out.println("Classificação: C");
-        } else if (grade >= 3.0) {
+        } else if (nota >= 3.0) {
             System.out.println("Classificação: D");
         } else {
             System.out.println("Classificação: F");
